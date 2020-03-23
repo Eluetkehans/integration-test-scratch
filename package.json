@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --testPathIgnorePatterns='.*.it.test.js'",
+    "integrationTest": "jest .*.it.test.js"
   },
   "repository": {
     "type": "git",
