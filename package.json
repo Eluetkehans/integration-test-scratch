@@ -1,0 +1,25 @@
+{
+  "name": "integration-test-scratch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eluetkehans/integration-test-scratch.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eluetkehans/integration-test-scratch/issues"
+  },
+  "homepage": "https://github.com/Eluetkehans/integration-test-scratch#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jest": "^25.1.0",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5"
+  }
+}
